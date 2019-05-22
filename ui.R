@@ -16,7 +16,7 @@ shinyUI(fluidPage(
             ),
 
         mainPanel(
-            tableOutput("contents"),
+            verbatimTextOutput("contents"),
             plotOutput('plot1')
         )
     )

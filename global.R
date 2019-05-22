@@ -1,8 +1,11 @@
 library(shiny)
 library(tidyverse)
+library(BiocManager)
 library(pathview)
 library(DT)
-library(xml2)
+library(org.Mm.eg.db)
+library(org.Hs.eg.db)
+
 
 data('korg')
 data('paths.hsa')

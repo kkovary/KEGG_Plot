@@ -1,0 +1,12 @@
+name: KEGG_Plot
+title: KEGG_Plot
+username:
+account: kylekovary
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 940125
+bundleId: 2099519
+url: https://kylekovary.shinyapps.io/KEGG_Plot/
+when: 1558463445.9235
+asMultiple: FALSE
+asStatic: FALSE

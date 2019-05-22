@@ -14,7 +14,7 @@ shinyServer(function(input, output, session) {
         return(df)
     })
     
-    output$contents <- renderTable(head(geneList()))
+    output$contents <- renderText({geneList()})
     
     output$plot1 <- renderImage({
         currentFiles <- list.files('.')
